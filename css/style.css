@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+header {
+  position: relative;
+  background-image: url(/assets/images/Our\ Culture.jpg);
+  background-size: cover;
+  height: 580px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar a {
+  color: #fff;
+}
+.nav-item {
+  letter-spacing: 1px;
+}
+
+.image-text {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  bottom: 15px;
+  left: 6%;
+  padding: 1rem;
+  font-weight: 200;
+}
+
+.control-buttons {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+  padding: 1rem;
+}
+
+.control-button-lt,
+.control-button-gt {
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  color: #f36f2b;
+  border-color: #ffe1e1;
+}
+.header-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 290px;
+  height: 4px;
+  background-color: #f36f2b;
+}
+
+.company-motive,
+.our-story {
+  background-color: #112c41;
+  color: #fff;
+}
+.company-motive .control-button-gt {
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+  color: #f36f2b;
+  border-color: #ffe1e1;
+}
+.company-info-heading,
+.appreciation-heading {
+  font-family: "Oswald", sans-serif;
+}
+.company-info-heading span,
+.appreciation-heading span {
+  color: #f36f2b;
+}
+.quartely-text,
+.appreciation-text {
+  padding: 10px;
+  color: #6b6b6b;
+  text-wrap: wrap;
+  text-align: justify;
+}
+.company-info-img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.company-info-control-buttons {
+  position: absolute;
+  bottom: 1%;
+  right: 7%;
+  padding: 1rem;
+}
+
+.company-line-vertical,
+.company-line-horizontal {
+  background-color: #f36f2b;
+}
+
+.company-line-vertical {
+  position: absolute;
+  right: 49%;
+  top: 18%;
+  width: 3px;
+  height: 24%;
+}
+
+.company-line-horizontal {
+  position: absolute;
+  right: 49%;
+  top: 31%;
+  width: 15%;
+  height: 3px;
+}
+.company-parties .company-party-img {
+  height: 18rem;
+  object-fit: cover;
+  width: 100%;
+}
+.double-quote {
+  color: #f36f2b;
+  font-size: large;
+  font-weight: 800;
+}
+.our-story-control-buttons {
+  position: absolute;
+  bottom: 14%;
+  right: 7%;
+  padding: 1rem;
+}
+.our-story-control-buttons .control-button-lt,
+.our-story-control-buttons .control-button-gt {
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+  color: #f36f2b;
+  border-color: #ffe1e1;
+}
+.global-business,
+.open-roles {
+  color: #f36f2b;
+}
+.globe-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: #f36f2b;
+  border-color: #ffe1e1;
+}
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer ul {
+  list-style: none;
+  line-height: 3rem;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .border-end {
+  border-color: #ffffff;
+}
+@media (max-width: 767.98px) {
+  footer .border-end {
+    border: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar {
+    border-bottom: 1px solid #fff;
+  }
+}
