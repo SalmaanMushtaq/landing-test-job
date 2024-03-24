@@ -155,10 +155,12 @@ header {
 footer {
   background-color: #000000;
   color: #ffffff;
+  font-size: 12px;
 }
 footer ul {
   list-style: none;
   line-height: 3rem;
+  font-size: 12px;
 }
 footer a {
   text-decoration: none;
@@ -168,11 +170,39 @@ footer a {
 footer .border-end {
   border-color: #ffffff;
 }
-@media (max-width: 767.98px) {
+.top-img {
+  width: 100%;
+  height: 95%;
+}
+
+.right-img {
+  width: 100%;
+  height: 68%;
+}
+
+.bottom-img-row {
+  width: 67vw;
+  height: 50%;
+}
+@media (max-width: 768px) {
   footer .border-end {
     border: none !important;
   }
+  .bottom-img-row {
+    width: auto;
+    height: auto;
+  }
+  .company-celebration .right-img {
+    height: auto;
+  }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .bottom-img-row {
+    width: auto;
+    height: auto;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar {
     border-bottom: 1px solid #fff;
